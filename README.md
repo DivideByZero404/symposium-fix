@@ -97,29 +97,6 @@ src/
 | Text Secondary | `#808080` | Subtitles, meta info |
 | Success Green | `#46d369` | Match score indicator |
 
----
-
-##  How to Update Content
-
-### Edit an Event
-Open `src/frontend/src/components/EventsSection.tsx` and update the `EVENTS` array.  
-Each event has: `title`, `category`, `poster`, `description`, `time`, `venue`, `contact`, `isPrank`.
-
-### Change Event Tags or Match Score
-Edit `EVENT_TAGS` and `MATCH_SCORES` in `src/frontend/src/components/EventDetailPage.tsx`.
-
-### Add a Photo
-1. Drop the image into `src/frontend/public/assets/uploads/`
-2. Import it in the relevant component
-3. Replace the placeholder `src` with the import
-
-### Update Registration Link
-Find `alert("Registration portal opening soon")` in `EventDetailPage.tsx` and replace with:
-```ts
-window.open("YOUR_GOOGLE_FORM_URL", "_blank");
-```
-
----
 
 ##  Downloading the Project
 
