@@ -115,7 +115,9 @@ Install the following before running the project:
 Node.js v18 or above
 pnpm:
 
-npm install -g pnpm
+
+| npm install -g pnpm     |
+|-------------------------|
 
 ---
 
