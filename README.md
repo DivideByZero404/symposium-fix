@@ -107,6 +107,43 @@ To download as a ZIP from Caffeine:
 
 ---
 
+##  Getting Started
+
+Prerequisites
+Install the following before running the project:
+
+Node.js v18 or above
+pnpm:
+
+npm install -g pnpm
+
+---
+
+##  Installation & Running Locally
+
+
+1. Install dependencies
+   
+bashpnpm install
+
+2. Start the dev server
+   
+npx vite
+
+3. Open in browser
+http://localhost:5173
+
+Building for Production
+npx vite build
+
+Stopping the Server
+Press Ctrl + C in the terminal.
+
+---
+
+
+
+
 ##  Credits
 
 **Website Developer** — Sreenithi R  
